@@ -16,12 +16,7 @@ This file is part of gentsim-examples.
     along with gentsim-examples.  If not, see <http://www.gnu.org/licenses/>.
 */
 import org.gentsim.framework.*
-import org.apache.log4j.xml.DOMConfigurator;
-
 import org.gentsim.util.Trace
-
-// Is this needed?  Only if log4j.xml is not on the classpath.
-DOMConfigurator.configure("log4j.xml")
 
 // create the simulation and specify location of entities, etc.
 beehive = new TimeSteppedSimulation(["entities", "events", "services"])
@@ -38,5 +33,5 @@ beehive.newEntity("thermometer")
 (0..10).each { beehive.newEntity("bee") }
 
 // Start the simulation.
-beehive.run(10)
+beehive.run(100)
 

@@ -22,14 +22,6 @@ import groovy.swing.SwingBuilder
 thermometer = new EntityDescription("thermometer")
 thermometer.parameter "time", 0
 
-thermometer.handleEvent("system.startup") { evt ->
-  // create a nice ui for the user to see.
-  def swing = new SwingBuilder()
-  def frame = swing.frame(title:'Thermometer')
-  frame.pack()
-  frame.show() // not sure if this will allow the sim to keep running or not.
-}
-
 thermometer.handleTimeUpdate() {t ->
   time = t
 }

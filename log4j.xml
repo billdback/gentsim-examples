@@ -18,7 +18,7 @@
       </layout>
    </appender>
 
-   <logger name="javabeat.net.log4j" additivity="false" >   
+   <logger name="org.gentsim.log" additivity="false" >   
       <level value="INFO" />
       <appender-ref ref="consoleAppender"/>      
       <appender-ref ref="fileAppender"/>      
