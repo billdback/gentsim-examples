@@ -5,3 +5,5 @@ Contact Info:  billback@gentsim.org
 
 gentsim-examples is a partner project to the gentsim framework.  The goal is to provide a variety ofsimple examples that demonstrate how to use the functionality of gentsim.  None of the models should be considered valid from a simulation perspective.  Additional sample models are welcome.
 
+gentsim-examples contains the library needed to create and run gentsim examples.  You can also download and build the code directly from http://github.com/billdback/gentsim.
+
