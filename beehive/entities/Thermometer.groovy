@@ -15,15 +15,27 @@ This file is part of gentsim-examples.
     You should have received a copy of the GNU General Public License
     along with gentsim-examples.  If not, see <http://www.gnu.org/licenses/>.
 */
-/** Valid sizes for the roach. */
-enum RoachSize { 
-  tiny(10, 1), small(20, 2), medium(30, 3), big(40, 4), huge(50, 5) 
+import org.gentsim.framework.EntityDescription
 
-  def RoachSize (int maxEnergy, int biteSize) {
-    this.maxEnergy = maxEnergy
-    this.biteSize = biteSize
-  }
+import groovy.swing.SwingBuilder
 
-  def maxEnergy
-  def biteSize
+thermometer = new EntityDescription("thermometer")
+thermometer.parameter "time", 0
+
+thermometer.handleEvent("system.startup") { evt ->
+  // create a nice ui for the user to see.
+  def swing = new SwingBuilder()
+  def frame = swing.frame(title:'Thermometer')
+  frame.pack()
+  frame.show() // not sure if this will allow the sim to keep running or not.
 }
+
+thermometer.handleTimeUpdate() {t ->
+  time = t
+}
+
+thermometer.handleEntityStateChanged ("hive", "temperature") { hive ->
+  printf "%02d:%02d hive is %2.1f degrees Fahrenheit\n",
+         (int)(time / 60) % 24, (int)time % 60, hive.temperature
+}
+

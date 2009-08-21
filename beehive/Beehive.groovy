@@ -15,15 +15,28 @@ This file is part of gentsim-examples.
     You should have received a copy of the GNU General Public License
     along with gentsim-examples.  If not, see <http://www.gnu.org/licenses/>.
 */
-/** Valid sizes for the roach. */
-enum RoachSize { 
-  tiny(10, 1), small(20, 2), medium(30, 3), big(40, 4), huge(50, 5) 
+import org.gentsim.framework.*
+import org.apache.log4j.xml.DOMConfigurator;
 
-  def RoachSize (int maxEnergy, int biteSize) {
-    this.maxEnergy = maxEnergy
-    this.biteSize = biteSize
-  }
+import org.gentsim.util.Trace
 
-  def maxEnergy
-  def biteSize
-}
+// Is this needed?  Only if log4j.xml is not on the classpath.
+DOMConfigurator.configure("log4j.xml")
+
+// create the simulation and specify location of entities, etc.
+beehive = new TimeSteppedSimulation(["entities", "events", "services"])
+
+// Set up tracing.
+Trace.off "statistics"
+//Trace.on "entities"
+//Trace.on "events"
+
+
+beehive.newService("outside_temp")
+beehive.newEntity("hive")
+beehive.newEntity("thermometer")
+(0..10).each { beehive.newEntity("bee") }
+
+// Start the simulation.
+beehive.run(10)
+

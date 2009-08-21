@@ -17,19 +17,25 @@ This file is part of gentsim-examples.
 */
 import org.gentsim.framework.EntityDescription
 
-rwa = new EntityDescription("roach-world-analyzer")
+// create the entity.
+hive = new EntityDescription("hive")
 
-rwa.roaches_created = 0
-rwa.roaches_died    = 0
+hive.temperature = 70.0 // temperature of the hive
+hive.numberBeesFlapping = 0
 
-rwa.handleEntityCreated ("roach") {
-  roaches_created += 1
+hive.usesService("outside_temp")
+
+hive.handleEntityStateChanged ("bee", "flapping") { bee ->
+  if (bee.flapping) numberBeesFlapping++
+  else              numberBeesFlapping--
 }
 
-rwa.handleEntityDestroyed ("roach") {
-  roaches_died += 1
-}
+hive.handleTimeUpdate { time ->
+  println "temp is ${temperature} and outside is ${outside_temp.getTemp(time)}"
+  // the temperature will increment towards the outside temperature
+  if (temperature > outside_temp.getTemp(time)) temperature--
+  else                                          temperature++
 
-rwa.handleEvent ("system.shutdown") {
-  attributes.each { att -> println "${att.key}: ${att.value}" }
+  // For each bee that is flapping its wings, drop the temperature by .1 degrees
+  temperature -= numberBeesFlapping * 0.1
 }

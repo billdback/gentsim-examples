@@ -15,15 +15,17 @@ This file is part of gentsim-examples.
     You should have received a copy of the GNU General Public License
     along with gentsim-examples.  If not, see <http://www.gnu.org/licenses/>.
 */
-/** Valid sizes for the roach. */
-enum RoachSize { 
-  tiny(10, 1), small(20, 2), medium(30, 3), big(40, 4), huge(50, 5) 
+import org.gentsim.framework.EntityDescription
 
-  def RoachSize (int maxEnergy, int biteSize) {
-    this.maxEnergy = maxEnergy
-    this.biteSize = biteSize
-  }
+bee = new EntityDescription("bee")
 
-  def maxEnergy
-  def biteSize
+bee.flapping = false // indicates that the bee is flapping its wings
+
+// create parameters for all entities of this type
+bee.parameter "desired_temp", 75.0 // desired temperature in degrees farenheight
+
+// whenever the temp changes, see if this bee should start flapping.
+bee.handleEntityStateChanged ("hive", "temperature") { hive ->
+  flapping = (hive.temperature > desired_temp) ? true : false
 }
+
