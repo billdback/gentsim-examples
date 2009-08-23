@@ -7,3 +7,27 @@ gentsim-examples is a partner project to the gentsim framework.  The goal is to 
 
 gentsim-examples contains the library needed to create and run gentsim examples.  You can also download and build the code directly from http://github.com/billdback/gentsim.
 
+Installing
+
+1.  Simply download the examples code and libraries from either the http://www.gentsim.org site or http://www.github.com/billdback/gentsim-examples.  
+
+2.  Put the gentsim-<version>-SNAPSHOT.jar into your groovy classpath.  This can be done by adding the jar to your CLASSPATH variable, passing the jar as a parameter to the groovy command (using -classpath), or by placing the jar into your ~/.grovy/lib directory.
+
+3.  Verify the install by running one of the example simulations using the process in "Running Simulation Scripts" below.
+
+4.  You will probably also want to put the bin/gentsim.groovy class in your path or make it accessible from anywhere.  An easy way to do this is to create an alias.  In the bash shell this is done by the command: alias gentsim='groovy my/path/to/examples/bin/gentsim.groovy'.  This will make it much easier to run the groovy scripts to simplify gentsim development.
+
+Creating New Simulations
+
+Simulations are created using the "gentsim" command and then editing the software.  See the language guide at http://www.gentsim.org/language_guide/gentsim_language.shtml for full details on how to write simulations using gentsim.
+
+Running Simulation Scripts
+
+1.  Change directory to the root of the simulation.  This should contain a groovy script with a name like MySimulation.groovy the creates a simulation.  
+
+2.  $ groovy -cp <jars> MySimulation
+
+Not that the -cp <jars> is only required if you have additional jars to add to the classpath that are not already in the CLASSPATH variable or ~/.groovy/lib directory.
+
+
+
