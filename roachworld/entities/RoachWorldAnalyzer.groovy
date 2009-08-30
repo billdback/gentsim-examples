@@ -30,6 +30,6 @@ rwa.handleEntityDestroyed ("roach") {
   roaches_died += 1
 }
 
-rwa.handleEvent ("system.shutdown") {
+rwa.handleEvent ("system.status.shutdown") {
   attributes.each { att -> println "${att.key}: ${att.value}" }
 }
