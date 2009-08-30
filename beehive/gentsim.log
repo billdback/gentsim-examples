@@ -535,3 +535,158 @@
 2009-08-21 13:02:32,124 INFO  [system] Adding event description time-update 
 2009-08-21 13:02:32,204 INFO  [system] starting the simulation for 100 cycles 
 2009-08-21 13:02:33,103 INFO  [system] stopping the simulation 
+2009-08-30 01:28:58,431 INFO  [system] Attempting to load descriptions from . 
+2009-08-30 01:28:58,502 INFO  [system] Attempting to load descriptions from ./Beehive.groovy 
+2009-08-30 01:28:58,579 INFO  [system] Running script Beehive.groovy 
+2009-08-30 01:28:58,784 INFO  [system] Attempting to load descriptions from entities 
+2009-08-30 01:28:58,860 INFO  [system] Attempting to load descriptions from entities/Bee.groovy 
+2009-08-30 01:28:58,861 INFO  [system] Running script Bee.groovy 
+2009-08-30 01:28:59,037 INFO  [system] Adding entity description bee 
+2009-08-30 01:28:59,135 INFO  [system] Attempting to load descriptions from entities/Hive.groovy 
+2009-08-30 01:28:59,136 INFO  [system] Running script Hive.groovy 
+2009-08-30 01:28:59,222 INFO  [system] Adding entity description hive 
+2009-08-30 01:28:59,222 INFO  [system] Attempting to load descriptions from entities/Thermometer.groovy 
+2009-08-30 01:28:59,223 INFO  [system] Running script Thermometer.groovy 
+2009-08-30 01:28:59,342 INFO  [system] Adding entity description thermometer 
+2009-08-30 01:28:59,344 INFO  [system] Attempting to load descriptions from events 
+2009-08-30 01:28:59,345 INFO  [system] Attempting to load descriptions from services 
+2009-08-30 01:28:59,346 INFO  [system] Attempting to load descriptions from services/Outside_temp.groovy 
+2009-08-30 01:28:59,346 INFO  [system] Running script Outside_temp.groovy 
+2009-08-30 01:28:59,418 INFO  [system] Adding service description outside_temp 
+2009-08-30 01:28:59,497 INFO  [system] Attempting to load descriptions from /framework/events/EntityCreatedEvent.groovy 
+2009-08-30 01:28:59,520 INFO  [system] Running script /framework/events/EntityCreatedEvent.groovy 
+2009-08-30 01:28:59,657 INFO  [system] Adding event description entity-created 
+2009-08-30 01:28:59,660 INFO  [system] Attempting to load descriptions from /framework/events/EntityDestroyedEvent.groovy 
+2009-08-30 01:28:59,661 INFO  [system] Running script /framework/events/EntityDestroyedEvent.groovy 
+2009-08-30 01:28:59,762 INFO  [system] Adding event description entity-destroyed 
+2009-08-30 01:28:59,762 INFO  [system] Attempting to load descriptions from /framework/events/EntityStateChangedEvent.groovy 
+2009-08-30 01:28:59,763 INFO  [system] Running script /framework/events/EntityStateChangedEvent.groovy 
+2009-08-30 01:28:59,833 INFO  [system] Adding event description entity-state-changed 
+2009-08-30 01:28:59,833 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdown.groovy 
+2009-08-30 01:28:59,835 INFO  [system] Running script /framework/events/SystemShutdown.groovy 
+2009-08-30 01:28:59,925 INFO  [system] Adding event description system.shutdown 
+2009-08-30 01:28:59,925 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartup.groovy 
+2009-08-30 01:28:59,926 INFO  [system] Running script /framework/events/SystemStartup.groovy 
+2009-08-30 01:28:59,960 INFO  [system] Adding event description system.startup 
+2009-08-30 01:28:59,960 INFO  [system] Attempting to load descriptions from /framework/events/TimeUpdateEvent.groovy 
+2009-08-30 01:28:59,961 INFO  [system] Running script /framework/events/TimeUpdateEvent.groovy 
+2009-08-30 01:29:00,021 INFO  [system] Adding event description time-update 
+2009-08-30 01:29:00,208 INFO  [system] starting the simulation for 100 cycles 
+2009-08-30 01:29:00,252 INFO  [system] Attempting to load descriptions from ./docs 
+2009-08-30 01:29:00,261 INFO  [system] Attempting to load descriptions from ./docs/gentsim.css 
+2009-08-30 01:29:00,262 INFO  [system] Running script gentsim.css 
+2009-08-30 01:33:09,722 INFO  [system] Attempting to load descriptions from . 
+2009-08-30 01:33:09,834 INFO  [system] Attempting to load descriptions from ./Beehive.groovy 
+2009-08-30 01:33:09,863 INFO  [system] Running script Beehive.groovy 
+2009-08-30 01:33:10,022 INFO  [system] Attempting to load descriptions from entities 
+2009-08-30 01:33:10,038 INFO  [system] Attempting to load descriptions from entities/Bee.groovy 
+2009-08-30 01:33:10,039 INFO  [system] Running script Bee.groovy 
+2009-08-30 01:33:10,262 INFO  [system] Adding entity description bee 
+2009-08-30 01:33:10,309 INFO  [system] Attempting to load descriptions from entities/Hive.groovy 
+2009-08-30 01:33:10,310 INFO  [system] Running script Hive.groovy 
+2009-08-30 01:33:10,391 INFO  [system] Adding entity description hive 
+2009-08-30 01:33:10,392 INFO  [system] Attempting to load descriptions from entities/Thermometer.groovy 
+2009-08-30 01:33:10,394 INFO  [system] Running script Thermometer.groovy 
+2009-08-30 01:33:10,531 INFO  [system] Adding entity description thermometer 
+2009-08-30 01:33:10,533 INFO  [system] Attempting to load descriptions from events 
+2009-08-30 01:33:10,533 INFO  [system] Attempting to load descriptions from services 
+2009-08-30 01:33:10,535 INFO  [system] Attempting to load descriptions from services/Outside_temp.groovy 
+2009-08-30 01:33:10,535 INFO  [system] Running script Outside_temp.groovy 
+2009-08-30 01:33:10,614 INFO  [system] Adding service description outside_temp 
+2009-08-30 01:33:10,637 INFO  [system] Attempting to load descriptions from /framework/events/EntityCreatedEvent.groovy 
+2009-08-30 01:33:10,643 INFO  [system] Running script /framework/events/EntityCreatedEvent.groovy 
+2009-08-30 01:33:10,723 INFO  [system] Adding event description entity-created 
+2009-08-30 01:33:10,754 INFO  [system] Attempting to load descriptions from /framework/events/EntityDestroyedEvent.groovy 
+2009-08-30 01:33:10,759 INFO  [system] Running script /framework/events/EntityDestroyedEvent.groovy 
+2009-08-30 01:33:10,862 INFO  [system] Adding event description entity-destroyed 
+2009-08-30 01:33:10,862 INFO  [system] Attempting to load descriptions from /framework/events/EntityStateChangedEvent.groovy 
+2009-08-30 01:33:10,862 INFO  [system] Running script /framework/events/EntityStateChangedEvent.groovy 
+2009-08-30 01:33:10,922 INFO  [system] Adding event description entity-state-changed 
+2009-08-30 01:33:10,922 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdown.groovy 
+2009-08-30 01:33:10,924 INFO  [system] Running script /framework/events/SystemShutdown.groovy 
+2009-08-30 01:33:10,992 INFO  [system] Adding event description system.shutdown 
+2009-08-30 01:33:10,993 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartup.groovy 
+2009-08-30 01:33:10,993 INFO  [system] Running script /framework/events/SystemStartup.groovy 
+2009-08-30 01:33:11,049 INFO  [system] Adding event description system.startup 
+2009-08-30 01:33:11,049 INFO  [system] Attempting to load descriptions from /framework/events/TimeUpdateEvent.groovy 
+2009-08-30 01:33:11,049 INFO  [system] Running script /framework/events/TimeUpdateEvent.groovy 
+2009-08-30 01:33:11,090 INFO  [system] Adding event description time-update 
+2009-08-30 01:33:11,317 INFO  [system] starting the simulation for 100 cycles 
+2009-08-30 01:33:11,341 INFO  [system] Attempting to load descriptions from ./docs 
+2009-08-30 01:33:11,419 INFO  [system] Attempting to load descriptions from ./docs/gentsim.css 
+2009-08-30 01:33:11,420 INFO  [system] Attempting to load descriptions from ./docs/index.html 
+2009-08-30 01:33:11,442 INFO  [system] Attempting to load descriptions from ./entities 
+2009-08-30 01:33:11,443 INFO  [system] Attempting to load descriptions from ./entities/Bee.groovy 
+2009-08-30 01:33:11,458 INFO  [system] Running script Bee.groovy 
+2009-08-30 01:33:11,572 INFO  [system] Adding entity description bee 
+2009-08-30 01:33:11,573 INFO  [system] Attempting to load descriptions from ./entities/Hive.groovy 
+2009-08-30 01:33:11,574 INFO  [system] Running script Hive.groovy 
+2009-08-30 01:33:11,692 INFO  [system] Adding entity description hive 
+2009-08-30 01:33:11,692 INFO  [system] Attempting to load descriptions from ./entities/Thermometer.groovy 
+2009-08-30 01:33:11,693 INFO  [system] Running script Thermometer.groovy 
+2009-08-30 01:33:11,792 INFO  [system] Adding entity description thermometer 
+2009-08-30 01:33:11,793 INFO  [system] Attempting to load descriptions from ./events 
+2009-08-30 01:33:11,793 INFO  [system] Attempting to load descriptions from ./gentsim.log 
+2009-08-30 01:33:11,798 INFO  [system] Attempting to load descriptions from ./log4j.xml 
+2009-08-30 01:33:11,800 INFO  [system] Attempting to load descriptions from ./services 
+2009-08-30 01:33:11,801 INFO  [system] Attempting to load descriptions from ./services/Outside_temp.groovy 
+2009-08-30 01:33:11,801 INFO  [system] Running script Outside_temp.groovy 
+2009-08-30 01:33:11,849 INFO  [system] Adding service description outside_temp 
+2009-08-30 01:37:33,629 INFO  [system] Attempting to load descriptions from . 
+2009-08-30 01:37:33,704 INFO  [system] Attempting to load descriptions from ./Beehive.groovy 
+2009-08-30 01:37:33,754 INFO  [system] Running script Beehive.groovy 
+2009-08-30 01:37:33,910 INFO  [system] Attempting to load descriptions from entities 
+2009-08-30 01:37:33,954 INFO  [system] Attempting to load descriptions from entities/Bee.groovy 
+2009-08-30 01:37:33,956 INFO  [system] Running script Bee.groovy 
+2009-08-30 01:37:34,099 INFO  [system] Adding entity description bee 
+2009-08-30 01:37:34,184 INFO  [system] Attempting to load descriptions from entities/Hive.groovy 
+2009-08-30 01:37:34,185 INFO  [system] Running script Hive.groovy 
+2009-08-30 01:37:34,274 INFO  [system] Adding entity description hive 
+2009-08-30 01:37:34,277 INFO  [system] Attempting to load descriptions from entities/Thermometer.groovy 
+2009-08-30 01:37:34,278 INFO  [system] Running script Thermometer.groovy 
+2009-08-30 01:37:34,399 INFO  [system] Adding entity description thermometer 
+2009-08-30 01:37:34,403 INFO  [system] Attempting to load descriptions from events 
+2009-08-30 01:37:34,403 INFO  [system] Attempting to load descriptions from services 
+2009-08-30 01:37:34,418 INFO  [system] Attempting to load descriptions from services/Outside_temp.groovy 
+2009-08-30 01:37:34,419 INFO  [system] Running script Outside_temp.groovy 
+2009-08-30 01:37:34,502 INFO  [system] Adding service description outside_temp 
+2009-08-30 01:37:34,536 INFO  [system] Attempting to load descriptions from /framework/events/EntityCreatedEvent.groovy 
+2009-08-30 01:37:34,543 INFO  [system] Running script /framework/events/EntityCreatedEvent.groovy 
+2009-08-30 01:37:34,590 INFO  [system] Adding event description entity-created 
+2009-08-30 01:37:34,591 INFO  [system] Attempting to load descriptions from /framework/events/EntityDestroyedEvent.groovy 
+2009-08-30 01:37:34,592 INFO  [system] Running script /framework/events/EntityDestroyedEvent.groovy 
+2009-08-30 01:37:34,663 INFO  [system] Adding event description entity-destroyed 
+2009-08-30 01:37:34,663 INFO  [system] Attempting to load descriptions from /framework/events/EntityStateChangedEvent.groovy 
+2009-08-30 01:37:34,664 INFO  [system] Running script /framework/events/EntityStateChangedEvent.groovy 
+2009-08-30 01:37:34,733 INFO  [system] Adding event description entity-state-changed 
+2009-08-30 01:37:34,733 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdown.groovy 
+2009-08-30 01:37:34,745 INFO  [system] Running script /framework/events/SystemShutdown.groovy 
+2009-08-30 01:37:34,876 INFO  [system] Adding event description system.shutdown 
+2009-08-30 01:37:34,876 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartup.groovy 
+2009-08-30 01:37:34,877 INFO  [system] Running script /framework/events/SystemStartup.groovy 
+2009-08-30 01:37:34,912 INFO  [system] Adding event description system.startup 
+2009-08-30 01:37:34,913 INFO  [system] Attempting to load descriptions from /framework/events/TimeUpdateEvent.groovy 
+2009-08-30 01:37:34,914 INFO  [system] Running script /framework/events/TimeUpdateEvent.groovy 
+2009-08-30 01:37:34,957 INFO  [system] Adding event description time-update 
+2009-08-30 01:37:35,125 INFO  [system] starting the simulation for 100 cycles 
+2009-08-30 01:37:35,157 INFO  [system] Attempting to load descriptions from ./docs 
+2009-08-30 01:37:35,197 INFO  [system] Attempting to load descriptions from ./docs/gentsim.css 
+2009-08-30 01:37:35,198 INFO  [system] Attempting to load descriptions from ./docs/index.html 
+2009-08-30 01:37:35,198 INFO  [system] Attempting to load descriptions from ./entities 
+2009-08-30 01:37:35,199 INFO  [system] Attempting to load descriptions from ./entities/Bee.groovy 
+2009-08-30 01:37:35,200 INFO  [system] Running script Bee.groovy 
+2009-08-30 01:37:35,283 INFO  [system] Adding entity description bee 
+2009-08-30 01:37:35,284 INFO  [system] Attempting to load descriptions from ./entities/Hive.groovy 
+2009-08-30 01:37:35,286 INFO  [system] Running script Hive.groovy 
+2009-08-30 01:37:35,433 INFO  [system] Adding entity description hive 
+2009-08-30 01:37:35,436 INFO  [system] Attempting to load descriptions from ./entities/Thermometer.groovy 
+2009-08-30 01:37:35,437 INFO  [system] Running script Thermometer.groovy 
+2009-08-30 01:37:35,567 INFO  [system] Adding entity description thermometer 
+2009-08-30 01:37:35,567 INFO  [system] Attempting to load descriptions from ./events 
+2009-08-30 01:37:35,570 INFO  [system] Attempting to load descriptions from ./gentsim.log 
+2009-08-30 01:37:35,571 INFO  [system] Attempting to load descriptions from ./log4j.xml 
+2009-08-30 01:37:35,601 INFO  [system] Attempting to load descriptions from ./services 
+2009-08-30 01:37:35,602 INFO  [system] Attempting to load descriptions from ./services/Outside_temp.groovy 
+2009-08-30 01:37:35,604 INFO  [system] Running script Outside_temp.groovy 
+2009-08-30 01:37:35,688 INFO  [system] Adding service description outside_temp 
+2009-08-30 01:37:37,063 INFO  [system] stopping the simulation 
