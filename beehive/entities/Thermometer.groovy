@@ -28,6 +28,6 @@ thermometer.handleTimeUpdate() {t ->
 
 thermometer.handleEntityStateChanged ("hive", "temperature") { hive ->
   printf "%02d:%02d hive is %2.1f degrees Fahrenheit\n",
-         (int)(time / 60) % 24, (int)time % 60, hive.temperature
+         (int)(time / 4) % 24, (int)time % 4, hive.temperature
 }
 

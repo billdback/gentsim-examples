@@ -15,25 +15,14 @@ This file is part of gentsim-examples.
     You should have received a copy of the GNU General Public License
     along with gentsim-examples.  If not, see <http://www.gnu.org/licenses/>.
 */
-import org.gentsim.framework.*
-import org.gentsim.util.Trace
+import groovy.swing.SwingBuilder
+import java.awt.*
+import javax.swing.*
 
-// create the simulation and specify location of entities, etc.
-beehive = new TimeSteppedSimulation(["entities", "events", "services"])
-
-// Set up tracing.
-Trace.off "statistics"
-//Trace.on "entities"
-//Trace.on "events"
-
-beehive.newEntity("ui")
-beehive.newService("outside_temp")
-beehive.newEntity("hive")
-beehive.newEntity("thermometer")
-(0..100).each { beehive.newEntity("bee") }
-
-// Start the simulation.
-beehive.cycleLength = 250 // .25 second cycles
-beehive.paused = true
-beehive.run(1000)
-
+class GraphPanel extends JPanel {
+  Closure draw
+  void paintComponent(Graphics g) {
+    super.paintComponent(g) // paint background
+    if (draw) draw(this, g)
+  }
+}
