@@ -1,0 +1,8 @@
+This simulation is a basic model of a beehive controlling temperature, inspired by the book Complex Adaptive Systems by John H. Miller and Scott E. Page.
+
+As the temperature rises during the day, bees will begin flapping to bring the temperature of the hive back down, once it exceeds a desired threshold.
+
+This simulation demonstrates two specific features.  The first is the use of SwingBuilder to create UIs that reflect simulation information.  See the UI.groovy script for specifics.
+
+The second is to demonstrate how entities having distributed trigger values, in this case desired_temp for bees, causes spikes to smooth out.  You can comment the random distribution of the desired_temp out in Beehive.groovy and run, then uncomment it and run and notice the big difference in behavior.
+

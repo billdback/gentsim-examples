@@ -31,7 +31,7 @@ hive.handleEntityStateChanged ("bee", "flapping") { bee ->
 }
 
 hive.handleTimeUpdate { time ->
-  println "temp is ${temperature} and outside is ${outside_temp.getTemp(time)}"
+  //println "temp is ${temperature} and outside is ${outside_temp.getTemp(time)}"
   // the temperature will increment towards the outside temperature
   if (temperature > outside_temp.getTemp(time)) temperature--
   else                                          temperature++

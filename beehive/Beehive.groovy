@@ -29,11 +29,19 @@ Trace.off "statistics"
 beehive.newEntity("ui")
 beehive.newService("outside_temp")
 beehive.newEntity("hive")
-beehive.newEntity("thermometer")
-(0..100).each { beehive.newEntity("bee") }
+//beehive.newEntity("thermometer")
+
+// Create the bees with a normal desired temp around 75 degrees F.
+def bee
+def rand = new Random()
+(0..100).each { 
+  bee = beehive.newEntity("bee") 
+  // NOTE:  comment to see the impact of all bees flapping.
+  bee.desired_temp = rand.nextGaussian() * 3 + 75
+}
 
 // Start the simulation.
 beehive.cycleLength = 250 // .25 second cycles
 beehive.paused = true
-beehive.run(1000)
+beehive.run(100)
 

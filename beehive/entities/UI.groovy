@@ -21,19 +21,19 @@ import java.awt.*
 import javax.swing.*
 
 ui = new EntityDescription("ui")
-ui.parameter "hive_temp", 0
-ui.parameter "nbr_bees", 0
-ui.parameter "bees_flapping", 0
-ui.parameter "bee_history", []
-ui.parameter "temp_history", []
+ui.hive_temp = 0
+ui.nbr_bees =  0
+ui.bees_flapping =  0
+ui.bee_history =  []
+ui.temp_history =  []
 
 // swing specific items
-ui.parameter "frame", null
-ui.parameter "nbr_bees_label", null
-ui.parameter "bees_flapping_label", null
-ui.parameter "temp_label", null
-ui.parameter "time_label", null
-ui.parameter "start_pause_button", null
+ui.frame =  null
+ui.nbr_bees_label =  null
+ui.bees_flapping_label =  null
+ui.temp_label =  null
+ui.time_label =  null
+ui.start_pause_button =  null
 
 ui.handleEntityCreated ("bee") { bee ->
   nbr_bees++
@@ -132,13 +132,13 @@ println "button clicked .... ${start_pause_button.text}"
       panel (new GraphPanel(draw: { p, g ->
         // draw the temp
         g.color = Color.RED
+        g.drawChars ("Temperature".toCharArray(), 0, 11, 0, 10)
         drawHistoryLine (p, g, temp_history)
         // draw the bees flapping
         g.color = Color.BLACK
+        g.drawChars ("# Flapping".toCharArray(), 0, 10, 0, 30)
         drawHistoryLine (p, g, bee_history)
       })) {
-        label (text: 'Temp', foreground: Color.RED)
-        label (text: 'Bees Flapping')
       }
     }
   }

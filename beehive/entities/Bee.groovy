@@ -19,10 +19,8 @@ import org.gentsim.framework.EntityDescription
 
 bee = new EntityDescription("bee")
 
-bee.flapping = false // indicates that the bee is flapping its wings
-
-// create parameters for all entities of this type
-bee.parameter "desired_temp", 75.0 // desired temperature in degrees farenheight
+bee.flapping     = false // indicates that the bee is flapping its wings
+bee.desired_temp = 75.0 // desired temperature in degrees farenheight
 
 // whenever the temp changes, see if this bee should start flapping.
 bee.handleEntityStateChanged ("hive", "temperature") { hive ->
