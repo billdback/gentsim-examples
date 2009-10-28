@@ -99,6 +99,7 @@ roach.method ("grow") {
  */
 roach.method ("move") {
   // if there is no current route, get one from the kitchen.
+  println "moving, location is ${location} ${location[0]}"
   if (route.size == 0) route = kitchen.routeToNearestFood(location)
   // now, move to the next spot in the route if not already there or there is nowhere to go.
   if (route.size > 0) location = route.remove(0)

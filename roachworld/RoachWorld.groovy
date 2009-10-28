@@ -37,7 +37,8 @@ def random = new Random()
 (1..20).each {
   def x = Math.abs(random.nextInt() % kitchen.width)
   def y = Math.abs(random.nextInt() % kitchen.length)
-  rwsim.newEntity("roach", ["location" : [x, y]])
+  def r = rwsim.newEntity("roach", ["location" : [x, y]])
+  println r
 }
 
 // start the simulation
