@@ -1,0 +1,6 @@
+This simulation is a basic model of roaches moving around a kitchen eating dropped food.  The roaches can grow, reproduce, and die.
+
+This simulation demonstrates how to create entities and handle state changes.
+
+To run this simulation, be in the roachworld directory and run the command $ groovy RoachWorld
+
