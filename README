@@ -7,6 +7,8 @@ gentsim-examples is a partner project to the gentsim framework.  The goal is to 
 
 gentsim-examples contains the library needed to create and run gentsim examples.  You can also download and build the code directly from http://github.com/billdback/gentsim.
 
+gentsim requires Groovy 1.6.5 or later and will not work with earlier versions of Groovy.
+
 Installing
 
 1.  Simply download the examples code and libraries from either the http://www.gentsim.org site or http://www.github.com/billdback/gentsim-examples.  
@@ -27,7 +29,7 @@ Running Simulation Scripts
 
 2.  $ groovy -cp <jars> MySimulation
 
-Note that the -cp <jars> is only required if you have additional jars to add to the classpath that are not already in the CLASSPATH variable or ~/.groovy/lib directory.
+Note that the -cp <jars> is only required if you have additional jars to add to the classpath that are not already in the <sim-directory>/lib directory, the CLASSPATH variable or ~/.groovy/lib directory.
 
 
 

@@ -6,3 +6,4 @@ This simulation demonstrates two specific features.  The first is the use of Swi
 
 The second is to demonstrate how entities having distributed trigger values, in this case desired_temp for bees, causes spikes to smooth out.  You can comment the random distribution of the desired_temp out in Beehive.groovy and run, then uncomment it and run and notice the big difference in behavior.
 
+To run this simulation, be in the beehive directory and run the command $ groovy Beehive

@@ -6560,3 +6560,659 @@
 2009-10-28 08:14:30,556 INFO  time of day for 74 is 18.5 
 2009-10-28 08:14:30,556 INFO  hours == 18 minutes == 30 seconds == 0.0 
 2009-10-28 08:14:30,557 INFO  18:30:00.00 
+2009-10-28 10:14:31,033 INFO  [system] Expanding the classpath 
+2009-10-28 10:14:31,167 INFO  [system] Adding /Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/ to the classpath 
+2009-10-28 10:14:31,229 INFO  [system] Adding file:///Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jcommon-1.0.16.jar to the classpath 
+2009-10-28 10:14:31,229 INFO  [system] Adding file:///Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jfreechart-1.0.13.jar to the classpath 
+2009-10-28 10:14:31,326 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./ 
+2009-10-28 10:14:31,326 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim/target/gentsim-0.3-SNAPSHOT.jar 
+2009-10-28 10:14:31,326 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-1.7.1.jar 
+2009-10-28 10:14:31,326 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-junit-1.7.1.jar 
+2009-10-28 10:14:31,326 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-launcher-1.7.1.jar 
+2009-10-28 10:14:31,327 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/antlr-2.7.7.jar 
+2009-10-28 10:14:31,327 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-2.2.3.jar 
+2009-10-28 10:14:31,327 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-analysis-2.2.3.jar 
+2009-10-28 10:14:31,327 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-tree-2.2.3.jar 
+2009-10-28 10:14:31,327 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-util-2.2.3.jar 
+2009-10-28 10:14:31,327 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/bsf-2.4.0.jar 
+2009-10-28 10:14:31,357 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/commons-cli-1.2.jar 
+2009-10-28 10:14:31,359 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/commons-logging-1.1.jar 
+2009-10-28 10:14:31,359 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/groovy-1.6.5.jar 
+2009-10-28 10:14:31,359 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ivy-2.1.0-rc2.jar 
+2009-10-28 10:14:31,360 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/jline-0.9.94.jar 
+2009-10-28 10:14:31,360 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/jsp-api-2.0.jar 
+2009-10-28 10:14:31,361 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/junit-3.8.2.jar 
+2009-10-28 10:14:31,361 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/servlet-api-2.4.jar 
+2009-10-28 10:14:31,361 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/xstream-1.3.1.jar 
+2009-10-28 10:14:31,361 INFO  [system] url:  file:/Users/billback/.groovy/lib/junit-4.5.jar 
+2009-10-28 10:14:31,362 INFO  [system] url:  file:/Users/billback/.groovy/lib/log4j-1.2.14.jar 
+2009-10-28 10:14:31,362 INFO  [system] url:  file:/Users/billback/.groovy/lib/perf4j-0.9.10.jar 
+2009-10-28 10:14:31,362 INFO  [system] url:  file:/Users/billback/.groovy/lib/spock-core-0.1.jar 
+2009-10-28 10:14:31,362 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/ 
+2009-10-28 10:14:31,363 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jcommon-1.0.16.jar 
+2009-10-28 10:14:31,363 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jfreechart-1.0.13.jar 
+2009-10-28 10:14:31,378 INFO  [system] Attempting to load descriptions from entities 
+2009-10-28 10:14:31,438 INFO  [system] Attempting to load descriptions from entities/Bee.groovy 
+2009-10-28 10:14:31,465 INFO  [system] Running script Bee.groovy 
+2009-10-28 10:14:31,686 INFO  [system] Adding entity description bee 
+2009-10-28 10:14:31,759 INFO  [system] Attempting to load descriptions from entities/Hive.groovy 
+2009-10-28 10:14:31,760 INFO  [system] Running script Hive.groovy 
+2009-10-28 10:14:31,895 INFO  [system] Adding entity description hive 
+2009-10-28 10:14:31,896 INFO  [system] Attempting to load descriptions from entities/Thermometer.groovy 
+2009-10-28 10:14:31,896 INFO  [system] Running script Thermometer.groovy 
+2009-10-28 10:14:32,113 INFO  [system] Adding entity description thermometer 
+2009-10-28 10:14:32,113 INFO  [system] Attempting to load descriptions from entities/UI.groovy 
+2009-10-28 10:14:32,114 INFO  [system] Running script UI.groovy 
+2009-10-28 10:14:33,010 INFO  [system] Adding entity description ui 
+2009-10-28 10:14:33,011 INFO  [system] Attempting to load descriptions from events 
+2009-10-28 10:14:33,012 INFO  [system] Attempting to load descriptions from services 
+2009-10-28 10:14:33,013 INFO  [system] Attempting to load descriptions from services/Outside_temp.groovy 
+2009-10-28 10:14:33,014 INFO  [system] Running script Outside_temp.groovy 
+2009-10-28 10:14:33,092 INFO  [system] Adding service description outside_temp 
+2009-10-28 10:14:33,143 INFO  [system] Attempting to load descriptions from /framework/events/EntityCreatedEvent.groovy 
+2009-10-28 10:14:33,149 INFO  [system] Running script /framework/events/EntityCreatedEvent.groovy 
+2009-10-28 10:14:33,211 INFO  [system] Adding event description entity-created 
+2009-10-28 10:14:33,213 INFO  [system] Attempting to load descriptions from /framework/events/EntityDestroyedEvent.groovy 
+2009-10-28 10:14:33,217 INFO  [system] Running script /framework/events/EntityDestroyedEvent.groovy 
+2009-10-28 10:14:33,269 INFO  [system] Adding event description entity-destroyed 
+2009-10-28 10:14:33,269 INFO  [system] Attempting to load descriptions from /framework/events/EntityStateChangedEvent.groovy 
+2009-10-28 10:14:33,270 INFO  [system] Running script /framework/events/EntityStateChangedEvent.groovy 
+2009-10-28 10:14:33,301 INFO  [system] Adding event description entity-state-changed 
+2009-10-28 10:14:33,301 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdownCommand.groovy 
+2009-10-28 10:14:33,302 INFO  [system] Running script /framework/events/SystemShutdownCommand.groovy 
+2009-10-28 10:14:33,353 INFO  [system] Adding event description system.command.shutdown 
+2009-10-28 10:14:33,354 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdownStatus.groovy 
+2009-10-28 10:14:33,354 INFO  [system] Running script /framework/events/SystemShutdownStatus.groovy 
+2009-10-28 10:14:33,442 INFO  [system] Adding event description system.status.shutdown 
+2009-10-28 10:14:33,444 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartCommand.groovy 
+2009-10-28 10:14:33,446 INFO  [system] Running script /framework/events/SystemStartCommand.groovy 
+2009-10-28 10:14:33,507 INFO  [system] Adding event description system.command.start 
+2009-10-28 10:14:33,519 INFO  [system] Attempting to load descriptions from /framework/events/SystemPauseCommand.groovy 
+2009-10-28 10:14:33,522 INFO  [system] Running script /framework/events/SystemPauseCommand.groovy 
+2009-10-28 10:14:33,603 INFO  [system] Adding event description system.command.pause 
+2009-10-28 10:14:33,604 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartupStatus.groovy 
+2009-10-28 10:14:33,606 INFO  [system] Running script /framework/events/SystemStartupStatus.groovy 
+2009-10-28 10:14:33,688 INFO  [system] Adding event description system.status.startup 
+2009-10-28 10:14:33,690 INFO  [system] Attempting to load descriptions from /framework/events/TimeUpdateEvent.groovy 
+2009-10-28 10:14:33,691 INFO  [system] Running script /framework/events/TimeUpdateEvent.groovy 
+2009-10-28 10:14:33,753 INFO  [system] Adding event description time-update 
+2009-10-28 10:14:34,108 INFO  [system] starting the simulation for 100 cycles 
+2009-10-28 10:14:43,715 INFO  0.0 * 3600.0 + (1 * 900.0)  
+2009-10-28 10:14:43,763 INFO  tod == 900.0 
+2009-10-28 10:14:43,763 INFO  hour == 0 
+2009-10-28 10:14:43,764 INFO  rem == 0.25 
+2009-10-28 10:14:43,765 INFO  time of day for 1 is 0.25 
+2009-10-28 10:14:43,767 INFO  hours == 0 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:43,780 INFO  00:15:00.00 
+2009-10-28 10:14:44,307 INFO  0.0 * 3600.0 + (2 * 900.0)  
+2009-10-28 10:14:44,308 INFO  tod == 1800.0 
+2009-10-28 10:14:44,308 INFO  hour == 0 
+2009-10-28 10:14:44,309 INFO  rem == 0.5 
+2009-10-28 10:14:44,314 INFO  time of day for 2 is 0.5 
+2009-10-28 10:14:44,314 INFO  hours == 0 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:44,315 INFO  00:30:00.00 
+2009-10-28 10:14:44,571 INFO  0.0 * 3600.0 + (3 * 900.0)  
+2009-10-28 10:14:44,571 INFO  tod == 2700.0 
+2009-10-28 10:14:44,572 INFO  hour == 0 
+2009-10-28 10:14:44,572 INFO  rem == 0.75 
+2009-10-28 10:14:44,573 INFO  time of day for 3 is 0.75 
+2009-10-28 10:14:44,574 INFO  hours == 0 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:44,575 INFO  00:45:00.00 
+2009-10-28 10:14:44,829 INFO  0.0 * 3600.0 + (4 * 900.0)  
+2009-10-28 10:14:44,829 INFO  tod == 3600.0 
+2009-10-28 10:14:44,830 INFO  hour == 1 
+2009-10-28 10:14:44,830 INFO  rem == 0.0 
+2009-10-28 10:14:44,830 INFO  time of day for 4 is 1.0 
+2009-10-28 10:14:44,832 INFO  hours == 1 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:44,833 INFO  01:00:00.00 
+2009-10-28 10:14:45,087 INFO  0.0 * 3600.0 + (5 * 900.0)  
+2009-10-28 10:14:45,090 INFO  tod == 4500.0 
+2009-10-28 10:14:45,090 INFO  hour == 1 
+2009-10-28 10:14:45,090 INFO  rem == 0.25 
+2009-10-28 10:14:45,090 INFO  time of day for 5 is 1.25 
+2009-10-28 10:14:45,098 INFO  hours == 1 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:45,099 INFO  01:15:00.00 
+2009-10-28 10:14:45,352 INFO  0.0 * 3600.0 + (6 * 900.0)  
+2009-10-28 10:14:45,352 INFO  tod == 5400.0 
+2009-10-28 10:14:45,352 INFO  hour == 1 
+2009-10-28 10:14:45,352 INFO  rem == 0.5 
+2009-10-28 10:14:45,352 INFO  time of day for 6 is 1.5 
+2009-10-28 10:14:45,353 INFO  hours == 1 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:45,353 INFO  01:30:00.00 
+2009-10-28 10:14:45,612 INFO  0.0 * 3600.0 + (7 * 900.0)  
+2009-10-28 10:14:45,612 INFO  tod == 6300.0 
+2009-10-28 10:14:45,612 INFO  hour == 1 
+2009-10-28 10:14:45,613 INFO  rem == 0.75 
+2009-10-28 10:14:45,613 INFO  time of day for 7 is 1.75 
+2009-10-28 10:14:45,615 INFO  hours == 1 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:45,615 INFO  01:45:00.00 
+2009-10-28 10:14:45,870 INFO  0.0 * 3600.0 + (8 * 900.0)  
+2009-10-28 10:14:45,879 INFO  tod == 7200.0 
+2009-10-28 10:14:45,879 INFO  hour == 2 
+2009-10-28 10:14:45,879 INFO  rem == 0.0 
+2009-10-28 10:14:45,879 INFO  time of day for 8 is 2.0 
+2009-10-28 10:14:45,879 INFO  hours == 2 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:45,880 INFO  02:00:00.00 
+2009-10-28 10:14:46,143 INFO  0.0 * 3600.0 + (9 * 900.0)  
+2009-10-28 10:14:46,144 INFO  tod == 8100.0 
+2009-10-28 10:14:46,144 INFO  hour == 2 
+2009-10-28 10:14:46,144 INFO  rem == 0.25 
+2009-10-28 10:14:46,144 INFO  time of day for 9 is 2.25 
+2009-10-28 10:14:46,144 INFO  hours == 2 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:46,145 INFO  02:15:00.00 
+2009-10-28 10:14:46,398 INFO  0.0 * 3600.0 + (10 * 900.0)  
+2009-10-28 10:14:46,398 INFO  tod == 9000.0 
+2009-10-28 10:14:46,398 INFO  hour == 2 
+2009-10-28 10:14:46,398 INFO  rem == 0.5 
+2009-10-28 10:14:46,398 INFO  time of day for 10 is 2.5 
+2009-10-28 10:14:46,398 INFO  hours == 2 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:46,399 INFO  02:30:00.00 
+2009-10-28 10:14:46,652 INFO  0.0 * 3600.0 + (11 * 900.0)  
+2009-10-28 10:14:46,652 INFO  tod == 9900.0 
+2009-10-28 10:14:46,652 INFO  hour == 2 
+2009-10-28 10:14:46,652 INFO  rem == 0.75 
+2009-10-28 10:14:46,652 INFO  time of day for 11 is 2.75 
+2009-10-28 10:14:46,652 INFO  hours == 2 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:46,652 INFO  02:45:00.00 
+2009-10-28 10:14:46,905 INFO  0.0 * 3600.0 + (12 * 900.0)  
+2009-10-28 10:14:46,906 INFO  tod == 10800.0 
+2009-10-28 10:14:46,906 INFO  hour == 3 
+2009-10-28 10:14:46,906 INFO  rem == 0.0 
+2009-10-28 10:14:46,906 INFO  time of day for 12 is 3.0 
+2009-10-28 10:14:46,906 INFO  hours == 3 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:46,907 INFO  03:00:00.00 
+2009-10-28 10:14:47,159 INFO  0.0 * 3600.0 + (13 * 900.0)  
+2009-10-28 10:14:47,159 INFO  tod == 11700.0 
+2009-10-28 10:14:47,159 INFO  hour == 3 
+2009-10-28 10:14:47,160 INFO  rem == 0.25 
+2009-10-28 10:14:47,160 INFO  time of day for 13 is 3.25 
+2009-10-28 10:14:47,160 INFO  hours == 3 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:47,161 INFO  03:15:00.00 
+2009-10-28 10:14:47,414 INFO  0.0 * 3600.0 + (14 * 900.0)  
+2009-10-28 10:14:47,414 INFO  tod == 12600.0 
+2009-10-28 10:14:47,414 INFO  hour == 3 
+2009-10-28 10:14:47,415 INFO  rem == 0.5 
+2009-10-28 10:14:47,415 INFO  time of day for 14 is 3.5 
+2009-10-28 10:14:47,415 INFO  hours == 3 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:47,415 INFO  03:30:00.00 
+2009-10-28 10:14:47,668 INFO  0.0 * 3600.0 + (15 * 900.0)  
+2009-10-28 10:14:47,669 INFO  tod == 13500.0 
+2009-10-28 10:14:47,669 INFO  hour == 3 
+2009-10-28 10:14:47,669 INFO  rem == 0.75 
+2009-10-28 10:14:47,669 INFO  time of day for 15 is 3.75 
+2009-10-28 10:14:47,669 INFO  hours == 3 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:47,669 INFO  03:45:00.00 
+2009-10-28 10:14:47,924 INFO  0.0 * 3600.0 + (16 * 900.0)  
+2009-10-28 10:14:47,924 INFO  tod == 14400.0 
+2009-10-28 10:14:47,924 INFO  hour == 4 
+2009-10-28 10:14:47,924 INFO  rem == 0.0 
+2009-10-28 10:14:47,924 INFO  time of day for 16 is 4.0 
+2009-10-28 10:14:47,924 INFO  hours == 4 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:47,925 INFO  04:00:00.00 
+2009-10-28 10:14:48,179 INFO  0.0 * 3600.0 + (17 * 900.0)  
+2009-10-28 10:14:48,180 INFO  tod == 15300.0 
+2009-10-28 10:14:48,180 INFO  hour == 4 
+2009-10-28 10:14:48,180 INFO  rem == 0.25 
+2009-10-28 10:14:48,180 INFO  time of day for 17 is 4.25 
+2009-10-28 10:14:48,180 INFO  hours == 4 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:48,181 INFO  04:15:00.00 
+2009-10-28 10:14:48,434 INFO  0.0 * 3600.0 + (18 * 900.0)  
+2009-10-28 10:14:48,435 INFO  tod == 16200.0 
+2009-10-28 10:14:48,435 INFO  hour == 4 
+2009-10-28 10:14:48,435 INFO  rem == 0.5 
+2009-10-28 10:14:48,436 INFO  time of day for 18 is 4.5 
+2009-10-28 10:14:48,436 INFO  hours == 4 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:48,437 INFO  04:30:00.00 
+2009-10-28 10:14:48,695 INFO  0.0 * 3600.0 + (19 * 900.0)  
+2009-10-28 10:14:48,695 INFO  tod == 17100.0 
+2009-10-28 10:14:48,696 INFO  hour == 4 
+2009-10-28 10:14:48,696 INFO  rem == 0.75 
+2009-10-28 10:14:48,696 INFO  time of day for 19 is 4.75 
+2009-10-28 10:14:48,698 INFO  hours == 4 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:48,699 INFO  04:45:00.00 
+2009-10-28 10:14:48,951 INFO  0.0 * 3600.0 + (20 * 900.0)  
+2009-10-28 10:14:48,951 INFO  tod == 18000.0 
+2009-10-28 10:14:48,951 INFO  hour == 5 
+2009-10-28 10:14:48,951 INFO  rem == 0.0 
+2009-10-28 10:14:48,951 INFO  time of day for 20 is 5.0 
+2009-10-28 10:14:48,951 INFO  hours == 5 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:48,952 INFO  05:00:00.00 
+2009-10-28 10:14:49,204 INFO  0.0 * 3600.0 + (21 * 900.0)  
+2009-10-28 10:14:49,204 INFO  tod == 18900.0 
+2009-10-28 10:14:49,204 INFO  hour == 5 
+2009-10-28 10:14:49,204 INFO  rem == 0.25 
+2009-10-28 10:14:49,205 INFO  time of day for 21 is 5.25 
+2009-10-28 10:14:49,205 INFO  hours == 5 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:49,205 INFO  05:15:00.00 
+2009-10-28 10:14:49,458 INFO  0.0 * 3600.0 + (22 * 900.0)  
+2009-10-28 10:14:49,458 INFO  tod == 19800.0 
+2009-10-28 10:14:49,458 INFO  hour == 5 
+2009-10-28 10:14:49,459 INFO  rem == 0.5 
+2009-10-28 10:14:49,459 INFO  time of day for 22 is 5.5 
+2009-10-28 10:14:49,459 INFO  hours == 5 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:49,459 INFO  05:30:00.00 
+2009-10-28 10:14:49,713 INFO  0.0 * 3600.0 + (23 * 900.0)  
+2009-10-28 10:14:49,714 INFO  tod == 20700.0 
+2009-10-28 10:14:49,714 INFO  hour == 5 
+2009-10-28 10:14:49,714 INFO  rem == 0.75 
+2009-10-28 10:14:49,714 INFO  time of day for 23 is 5.75 
+2009-10-28 10:14:49,715 INFO  hours == 5 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:49,715 INFO  05:45:00.00 
+2009-10-28 10:14:49,968 INFO  0.0 * 3600.0 + (24 * 900.0)  
+2009-10-28 10:14:49,968 INFO  tod == 21600.0 
+2009-10-28 10:14:49,968 INFO  hour == 6 
+2009-10-28 10:14:49,968 INFO  rem == 0.0 
+2009-10-28 10:14:49,968 INFO  time of day for 24 is 6.0 
+2009-10-28 10:14:49,968 INFO  hours == 6 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:49,969 INFO  06:00:00.00 
+2009-10-28 10:14:50,222 INFO  0.0 * 3600.0 + (25 * 900.0)  
+2009-10-28 10:14:50,222 INFO  tod == 22500.0 
+2009-10-28 10:14:50,222 INFO  hour == 6 
+2009-10-28 10:14:50,222 INFO  rem == 0.25 
+2009-10-28 10:14:50,222 INFO  time of day for 25 is 6.25 
+2009-10-28 10:14:50,222 INFO  hours == 6 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:50,223 INFO  06:15:00.00 
+2009-10-28 10:14:50,477 INFO  0.0 * 3600.0 + (26 * 900.0)  
+2009-10-28 10:14:50,478 INFO  tod == 23400.0 
+2009-10-28 10:14:50,478 INFO  hour == 6 
+2009-10-28 10:14:50,478 INFO  rem == 0.5 
+2009-10-28 10:14:50,478 INFO  time of day for 26 is 6.5 
+2009-10-28 10:14:50,479 INFO  hours == 6 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:50,479 INFO  06:30:00.00 
+2009-10-28 10:14:50,732 INFO  0.0 * 3600.0 + (27 * 900.0)  
+2009-10-28 10:14:50,732 INFO  tod == 24300.0 
+2009-10-28 10:14:50,732 INFO  hour == 6 
+2009-10-28 10:14:50,732 INFO  rem == 0.75 
+2009-10-28 10:14:50,733 INFO  time of day for 27 is 6.75 
+2009-10-28 10:14:50,733 INFO  hours == 6 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:50,733 INFO  06:45:00.00 
+2009-10-28 10:14:50,986 INFO  0.0 * 3600.0 + (28 * 900.0)  
+2009-10-28 10:14:50,987 INFO  tod == 25200.0 
+2009-10-28 10:14:50,987 INFO  hour == 7 
+2009-10-28 10:14:50,989 INFO  rem == 0.0 
+2009-10-28 10:14:50,989 INFO  time of day for 28 is 7.0 
+2009-10-28 10:14:50,989 INFO  hours == 7 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:51,022 INFO  07:00:00.00 
+2009-10-28 10:14:51,311 INFO  0.0 * 3600.0 + (29 * 900.0)  
+2009-10-28 10:14:51,312 INFO  tod == 26100.0 
+2009-10-28 10:14:51,312 INFO  hour == 7 
+2009-10-28 10:14:51,313 INFO  rem == 0.25 
+2009-10-28 10:14:51,313 INFO  time of day for 29 is 7.25 
+2009-10-28 10:14:51,313 INFO  hours == 7 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:51,313 INFO  07:15:00.00 
+2009-10-28 10:14:51,566 INFO  0.0 * 3600.0 + (30 * 900.0)  
+2009-10-28 10:14:51,566 INFO  tod == 27000.0 
+2009-10-28 10:14:51,567 INFO  hour == 7 
+2009-10-28 10:14:51,567 INFO  rem == 0.5 
+2009-10-28 10:14:51,567 INFO  time of day for 30 is 7.5 
+2009-10-28 10:14:51,567 INFO  hours == 7 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:51,567 INFO  07:30:00.00 
+2009-10-28 10:14:51,821 INFO  0.0 * 3600.0 + (31 * 900.0)  
+2009-10-28 10:14:51,822 INFO  tod == 27900.0 
+2009-10-28 10:14:51,822 INFO  hour == 7 
+2009-10-28 10:14:51,822 INFO  rem == 0.75 
+2009-10-28 10:14:51,822 INFO  time of day for 31 is 7.75 
+2009-10-28 10:14:51,823 INFO  hours == 7 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:51,823 INFO  07:45:00.00 
+2009-10-28 10:14:52,076 INFO  0.0 * 3600.0 + (32 * 900.0)  
+2009-10-28 10:14:52,077 INFO  tod == 28800.0 
+2009-10-28 10:14:52,077 INFO  hour == 8 
+2009-10-28 10:14:52,077 INFO  rem == 0.0 
+2009-10-28 10:14:52,077 INFO  time of day for 32 is 8.0 
+2009-10-28 10:14:52,077 INFO  hours == 8 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:52,077 INFO  08:00:00.00 
+2009-10-28 10:14:52,330 INFO  0.0 * 3600.0 + (33 * 900.0)  
+2009-10-28 10:14:52,331 INFO  tod == 29700.0 
+2009-10-28 10:14:52,331 INFO  hour == 8 
+2009-10-28 10:14:52,331 INFO  rem == 0.25 
+2009-10-28 10:14:52,331 INFO  time of day for 33 is 8.25 
+2009-10-28 10:14:52,331 INFO  hours == 8 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:52,332 INFO  08:15:00.00 
+2009-10-28 10:14:52,584 INFO  0.0 * 3600.0 + (34 * 900.0)  
+2009-10-28 10:14:52,585 INFO  tod == 30600.0 
+2009-10-28 10:14:52,585 INFO  hour == 8 
+2009-10-28 10:14:52,585 INFO  rem == 0.5 
+2009-10-28 10:14:52,585 INFO  time of day for 34 is 8.5 
+2009-10-28 10:14:52,586 INFO  hours == 8 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:52,586 INFO  08:30:00.00 
+2009-10-28 10:14:52,842 INFO  0.0 * 3600.0 + (35 * 900.0)  
+2009-10-28 10:14:52,843 INFO  tod == 31500.0 
+2009-10-28 10:14:52,843 INFO  hour == 8 
+2009-10-28 10:14:52,843 INFO  rem == 0.75 
+2009-10-28 10:14:52,843 INFO  time of day for 35 is 8.75 
+2009-10-28 10:14:52,843 INFO  hours == 8 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:52,844 INFO  08:45:00.00 
+2009-10-28 10:14:53,096 INFO  0.0 * 3600.0 + (36 * 900.0)  
+2009-10-28 10:14:53,111 INFO  tod == 32400.0 
+2009-10-28 10:14:53,111 INFO  hour == 9 
+2009-10-28 10:14:53,111 INFO  rem == 0.0 
+2009-10-28 10:14:53,111 INFO  time of day for 36 is 9.0 
+2009-10-28 10:14:53,111 INFO  hours == 9 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:53,112 INFO  09:00:00.00 
+2009-10-28 10:14:53,367 INFO  0.0 * 3600.0 + (37 * 900.0)  
+2009-10-28 10:14:53,367 INFO  tod == 33300.0 
+2009-10-28 10:14:53,367 INFO  hour == 9 
+2009-10-28 10:14:53,367 INFO  rem == 0.25 
+2009-10-28 10:14:53,370 INFO  time of day for 37 is 9.25 
+2009-10-28 10:14:53,370 INFO  hours == 9 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:53,370 INFO  09:15:00.00 
+2009-10-28 10:14:53,623 INFO  0.0 * 3600.0 + (38 * 900.0)  
+2009-10-28 10:14:53,623 INFO  tod == 34200.0 
+2009-10-28 10:14:53,623 INFO  hour == 9 
+2009-10-28 10:14:53,624 INFO  rem == 0.5 
+2009-10-28 10:14:53,624 INFO  time of day for 38 is 9.5 
+2009-10-28 10:14:53,625 INFO  hours == 9 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:53,626 INFO  09:30:00.00 
+2009-10-28 10:14:53,880 INFO  0.0 * 3600.0 + (39 * 900.0)  
+2009-10-28 10:14:53,880 INFO  tod == 35100.0 
+2009-10-28 10:14:53,880 INFO  hour == 9 
+2009-10-28 10:14:53,880 INFO  rem == 0.75 
+2009-10-28 10:14:53,880 INFO  time of day for 39 is 9.75 
+2009-10-28 10:14:53,881 INFO  hours == 9 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:53,881 INFO  09:45:00.00 
+2009-10-28 10:14:54,134 INFO  0.0 * 3600.0 + (40 * 900.0)  
+2009-10-28 10:14:54,134 INFO  tod == 36000.0 
+2009-10-28 10:14:54,134 INFO  hour == 10 
+2009-10-28 10:14:54,134 INFO  rem == 0.0 
+2009-10-28 10:14:54,134 INFO  time of day for 40 is 10.0 
+2009-10-28 10:14:54,135 INFO  hours == 10 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:54,135 INFO  10:00:00.00 
+2009-10-28 10:14:54,387 INFO  0.0 * 3600.0 + (41 * 900.0)  
+2009-10-28 10:14:54,387 INFO  tod == 36900.0 
+2009-10-28 10:14:54,387 INFO  hour == 10 
+2009-10-28 10:14:54,387 INFO  rem == 0.25 
+2009-10-28 10:14:54,387 INFO  time of day for 41 is 10.25 
+2009-10-28 10:14:54,388 INFO  hours == 10 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:54,388 INFO  10:15:00.00 
+2009-10-28 10:14:54,640 INFO  0.0 * 3600.0 + (42 * 900.0)  
+2009-10-28 10:14:54,640 INFO  tod == 37800.0 
+2009-10-28 10:14:54,640 INFO  hour == 10 
+2009-10-28 10:14:54,641 INFO  rem == 0.5 
+2009-10-28 10:14:54,641 INFO  time of day for 42 is 10.5 
+2009-10-28 10:14:54,641 INFO  hours == 10 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:54,641 INFO  10:30:00.00 
+2009-10-28 10:14:54,894 INFO  0.0 * 3600.0 + (43 * 900.0)  
+2009-10-28 10:14:54,895 INFO  tod == 38700.0 
+2009-10-28 10:14:54,895 INFO  hour == 10 
+2009-10-28 10:14:54,895 INFO  rem == 0.75 
+2009-10-28 10:14:54,895 INFO  time of day for 43 is 10.75 
+2009-10-28 10:14:54,895 INFO  hours == 10 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:54,895 INFO  10:45:00.00 
+2009-10-28 10:14:55,148 INFO  0.0 * 3600.0 + (44 * 900.0)  
+2009-10-28 10:14:55,148 INFO  tod == 39600.0 
+2009-10-28 10:14:55,148 INFO  hour == 11 
+2009-10-28 10:14:55,148 INFO  rem == 0.0 
+2009-10-28 10:14:55,148 INFO  time of day for 44 is 11.0 
+2009-10-28 10:14:55,148 INFO  hours == 11 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:55,149 INFO  11:00:00.00 
+2009-10-28 10:14:55,402 INFO  0.0 * 3600.0 + (45 * 900.0)  
+2009-10-28 10:14:55,402 INFO  tod == 40500.0 
+2009-10-28 10:14:55,402 INFO  hour == 11 
+2009-10-28 10:14:55,402 INFO  rem == 0.25 
+2009-10-28 10:14:55,402 INFO  time of day for 45 is 11.25 
+2009-10-28 10:14:55,402 INFO  hours == 11 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:55,403 INFO  11:15:00.00 
+2009-10-28 10:14:55,656 INFO  0.0 * 3600.0 + (46 * 900.0)  
+2009-10-28 10:14:55,656 INFO  tod == 41400.0 
+2009-10-28 10:14:55,657 INFO  hour == 11 
+2009-10-28 10:14:55,657 INFO  rem == 0.5 
+2009-10-28 10:14:55,657 INFO  time of day for 46 is 11.5 
+2009-10-28 10:14:55,657 INFO  hours == 11 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:55,658 INFO  11:30:00.00 
+2009-10-28 10:14:55,911 INFO  0.0 * 3600.0 + (47 * 900.0)  
+2009-10-28 10:14:55,911 INFO  tod == 42300.0 
+2009-10-28 10:14:55,911 INFO  hour == 11 
+2009-10-28 10:14:55,911 INFO  rem == 0.75 
+2009-10-28 10:14:55,911 INFO  time of day for 47 is 11.75 
+2009-10-28 10:14:55,912 INFO  hours == 11 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:55,912 INFO  11:45:00.00 
+2009-10-28 10:14:56,166 INFO  0.0 * 3600.0 + (48 * 900.0)  
+2009-10-28 10:14:56,166 INFO  tod == 43200.0 
+2009-10-28 10:14:56,167 INFO  hour == 12 
+2009-10-28 10:14:56,167 INFO  rem == 0.0 
+2009-10-28 10:14:56,167 INFO  time of day for 48 is 12.0 
+2009-10-28 10:14:56,167 INFO  hours == 12 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:56,169 INFO  12:00:00.00 
+2009-10-28 10:14:56,422 INFO  0.0 * 3600.0 + (49 * 900.0)  
+2009-10-28 10:14:56,422 INFO  tod == 44100.0 
+2009-10-28 10:14:56,422 INFO  hour == 12 
+2009-10-28 10:14:56,422 INFO  rem == 0.25 
+2009-10-28 10:14:56,422 INFO  time of day for 49 is 12.25 
+2009-10-28 10:14:56,423 INFO  hours == 12 minutes == 15 seconds == 0.0 
+2009-10-28 10:14:56,423 INFO  12:15:00.00 
+2009-10-28 10:14:56,680 INFO  0.0 * 3600.0 + (50 * 900.0)  
+2009-10-28 10:14:56,680 INFO  tod == 45000.0 
+2009-10-28 10:14:56,680 INFO  hour == 12 
+2009-10-28 10:14:56,681 INFO  rem == 0.5 
+2009-10-28 10:14:56,681 INFO  time of day for 50 is 12.5 
+2009-10-28 10:14:56,681 INFO  hours == 12 minutes == 30 seconds == 0.0 
+2009-10-28 10:14:56,681 INFO  12:30:00.00 
+2009-10-28 10:14:56,933 INFO  0.0 * 3600.0 + (51 * 900.0)  
+2009-10-28 10:14:56,934 INFO  tod == 45900.0 
+2009-10-28 10:14:56,934 INFO  hour == 12 
+2009-10-28 10:14:56,934 INFO  rem == 0.75 
+2009-10-28 10:14:56,934 INFO  time of day for 51 is 12.75 
+2009-10-28 10:14:56,934 INFO  hours == 12 minutes == 45 seconds == 0.0 
+2009-10-28 10:14:56,935 INFO  12:45:00.00 
+2009-10-28 10:14:57,187 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:57,187 INFO  tod == 46800.0 
+2009-10-28 10:14:57,188 INFO  hour == 13 
+2009-10-28 10:14:57,188 INFO  rem == 0.0 
+2009-10-28 10:14:57,188 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:57,188 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:57,188 INFO  13:00:00.00 
+2009-10-28 10:14:57,441 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:57,441 INFO  tod == 46800.0 
+2009-10-28 10:14:57,441 INFO  hour == 13 
+2009-10-28 10:14:57,441 INFO  rem == 0.0 
+2009-10-28 10:14:57,441 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:57,441 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:57,441 INFO  13:00:00.00 
+2009-10-28 10:14:57,694 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:57,694 INFO  tod == 46800.0 
+2009-10-28 10:14:57,694 INFO  hour == 13 
+2009-10-28 10:14:57,694 INFO  rem == 0.0 
+2009-10-28 10:14:57,694 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:57,694 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:57,694 INFO  13:00:00.00 
+2009-10-28 10:14:57,947 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:57,947 INFO  tod == 46800.0 
+2009-10-28 10:14:57,947 INFO  hour == 13 
+2009-10-28 10:14:57,948 INFO  rem == 0.0 
+2009-10-28 10:14:57,948 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:57,948 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:57,948 INFO  13:00:00.00 
+2009-10-28 10:14:58,200 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:58,201 INFO  tod == 46800.0 
+2009-10-28 10:14:58,201 INFO  hour == 13 
+2009-10-28 10:14:58,201 INFO  rem == 0.0 
+2009-10-28 10:14:58,201 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:58,201 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:58,202 INFO  13:00:00.00 
+2009-10-28 10:14:58,455 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:58,455 INFO  tod == 46800.0 
+2009-10-28 10:14:58,455 INFO  hour == 13 
+2009-10-28 10:14:58,456 INFO  rem == 0.0 
+2009-10-28 10:14:58,456 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:58,456 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:58,456 INFO  13:00:00.00 
+2009-10-28 10:14:58,707 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:58,707 INFO  tod == 46800.0 
+2009-10-28 10:14:58,707 INFO  hour == 13 
+2009-10-28 10:14:58,707 INFO  rem == 0.0 
+2009-10-28 10:14:58,707 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:58,708 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:58,708 INFO  13:00:00.00 
+2009-10-28 10:14:58,960 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:58,960 INFO  tod == 46800.0 
+2009-10-28 10:14:58,960 INFO  hour == 13 
+2009-10-28 10:14:58,961 INFO  rem == 0.0 
+2009-10-28 10:14:58,961 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:58,961 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:58,961 INFO  13:00:00.00 
+2009-10-28 10:14:59,212 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:59,213 INFO  tod == 46800.0 
+2009-10-28 10:14:59,213 INFO  hour == 13 
+2009-10-28 10:14:59,213 INFO  rem == 0.0 
+2009-10-28 10:14:59,213 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:59,213 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:59,214 INFO  13:00:00.00 
+2009-10-28 10:14:59,466 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:59,467 INFO  tod == 46800.0 
+2009-10-28 10:14:59,467 INFO  hour == 13 
+2009-10-28 10:14:59,467 INFO  rem == 0.0 
+2009-10-28 10:14:59,467 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:59,467 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:59,469 INFO  13:00:00.00 
+2009-10-28 10:14:59,720 INFO  0.0 * 3600.0 + (52 * 900.0)  
+2009-10-28 10:14:59,721 INFO  tod == 46800.0 
+2009-10-28 10:14:59,721 INFO  hour == 13 
+2009-10-28 10:14:59,722 INFO  rem == 0.0 
+2009-10-28 10:14:59,722 INFO  time of day for 52 is 13.0 
+2009-10-28 10:14:59,722 INFO  hours == 13 minutes == 0 seconds == 0.0 
+2009-10-28 10:14:59,723 INFO  13:00:00.00 
+2009-10-28 10:16:28,292 INFO  [system] stopping the simulation 
+2009-10-28 11:12:04,961 INFO  [system] Expanding the classpath 
+2009-10-28 11:12:05,077 INFO  [system] Adding /Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/ to the classpath 
+2009-10-28 11:12:05,137 INFO  [system] Adding file:///Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jcommon-1.0.16.jar to the classpath 
+2009-10-28 11:12:05,138 INFO  [system] Adding file:///Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jfreechart-1.0.13.jar to the classpath 
+2009-10-28 11:12:05,180 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./ 
+2009-10-28 11:12:05,181 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim/target/gentsim-0.3-SNAPSHOT.jar 
+2009-10-28 11:12:05,181 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-1.7.1.jar 
+2009-10-28 11:12:05,181 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-junit-1.7.1.jar 
+2009-10-28 11:12:05,181 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-launcher-1.7.1.jar 
+2009-10-28 11:12:05,181 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/antlr-2.7.7.jar 
+2009-10-28 11:12:05,181 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-2.2.3.jar 
+2009-10-28 11:12:05,182 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-analysis-2.2.3.jar 
+2009-10-28 11:12:05,182 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-tree-2.2.3.jar 
+2009-10-28 11:12:05,182 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-util-2.2.3.jar 
+2009-10-28 11:12:05,184 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/bsf-2.4.0.jar 
+2009-10-28 11:12:05,186 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/commons-cli-1.2.jar 
+2009-10-28 11:12:05,187 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/commons-logging-1.1.jar 
+2009-10-28 11:12:05,187 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/groovy-1.6.5.jar 
+2009-10-28 11:12:05,188 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ivy-2.1.0-rc2.jar 
+2009-10-28 11:12:05,189 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/jline-0.9.94.jar 
+2009-10-28 11:12:05,190 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/jsp-api-2.0.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/junit-3.8.2.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/servlet-api-2.4.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/xstream-1.3.1.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Users/billback/.groovy/lib/junit-4.5.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Users/billback/.groovy/lib/log4j-1.2.14.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Users/billback/.groovy/lib/perf4j-0.9.10.jar 
+2009-10-28 11:12:05,191 INFO  [system] url:  file:/Users/billback/.groovy/lib/spock-core-0.1.jar 
+2009-10-28 11:12:05,192 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/ 
+2009-10-28 11:12:05,192 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jcommon-1.0.16.jar 
+2009-10-28 11:12:05,192 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jfreechart-1.0.13.jar 
+2009-10-28 11:12:05,204 INFO  [system] Attempting to load descriptions from . 
+2009-10-28 11:12:05,209 INFO  [system] Attempting to load descriptions from ./.DS_Store 
+2009-10-28 11:12:05,231 INFO  [system] Attempting to load descriptions from ./Beehive.groovy 
+2009-10-28 11:12:05,244 INFO  [system] Running script Beehive.groovy 
+2009-10-28 11:12:05,569 INFO  [system] Expanding the classpath 
+2009-10-28 11:12:05,573 INFO  [system] Adding /Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/ to the classpath 
+2009-10-28 11:12:05,576 INFO  [system] Adding file:///Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jcommon-1.0.16.jar to the classpath 
+2009-10-28 11:12:05,576 INFO  [system] Adding file:///Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jfreechart-1.0.13.jar to the classpath 
+2009-10-28 11:12:05,577 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./ 
+2009-10-28 11:12:05,577 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim/target/gentsim-0.3-SNAPSHOT.jar 
+2009-10-28 11:12:05,577 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-1.7.1.jar 
+2009-10-28 11:12:05,578 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-junit-1.7.1.jar 
+2009-10-28 11:12:05,578 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ant-launcher-1.7.1.jar 
+2009-10-28 11:12:05,578 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/antlr-2.7.7.jar 
+2009-10-28 11:12:05,578 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-2.2.3.jar 
+2009-10-28 11:12:05,579 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-analysis-2.2.3.jar 
+2009-10-28 11:12:05,582 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-tree-2.2.3.jar 
+2009-10-28 11:12:05,585 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/asm-util-2.2.3.jar 
+2009-10-28 11:12:05,585 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/bsf-2.4.0.jar 
+2009-10-28 11:12:05,586 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/commons-cli-1.2.jar 
+2009-10-28 11:12:05,586 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/commons-logging-1.1.jar 
+2009-10-28 11:12:05,586 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/groovy-1.6.5.jar 
+2009-10-28 11:12:05,586 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/ivy-2.1.0-rc2.jar 
+2009-10-28 11:12:05,587 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/jline-0.9.94.jar 
+2009-10-28 11:12:05,587 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/jsp-api-2.0.jar 
+2009-10-28 11:12:05,587 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/junit-3.8.2.jar 
+2009-10-28 11:12:05,587 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/servlet-api-2.4.jar 
+2009-10-28 11:12:05,588 INFO  [system] url:  file:/Developer/Applications/groovy-1.6.5/lib/xstream-1.3.1.jar 
+2009-10-28 11:12:05,590 INFO  [system] url:  file:/Users/billback/.groovy/lib/junit-4.5.jar 
+2009-10-28 11:12:05,591 INFO  [system] url:  file:/Users/billback/.groovy/lib/log4j-1.2.14.jar 
+2009-10-28 11:12:05,592 INFO  [system] url:  file:/Users/billback/.groovy/lib/perf4j-0.9.10.jar 
+2009-10-28 11:12:05,597 INFO  [system] url:  file:/Users/billback/.groovy/lib/spock-core-0.1.jar 
+2009-10-28 11:12:05,597 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/ 
+2009-10-28 11:12:05,598 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jcommon-1.0.16.jar 
+2009-10-28 11:12:05,598 INFO  [system] url:  file:/Users/billback/Coding/groovy/gentsim-examples/beehive/./lib/jfreechart-1.0.13.jar 
+2009-10-28 11:12:05,627 INFO  [system] Attempting to load descriptions from entities 
+2009-10-28 11:12:05,665 INFO  [system] Attempting to load descriptions from entities/Bee.groovy 
+2009-10-28 11:12:05,666 INFO  [system] Running script Bee.groovy 
+2009-10-28 11:12:05,923 INFO  [system] Adding entity description bee 
+2009-10-28 11:12:05,956 INFO  [system] Attempting to load descriptions from entities/Hive.groovy 
+2009-10-28 11:12:05,957 INFO  [system] Running script Hive.groovy 
+2009-10-28 11:12:06,094 INFO  [system] Adding entity description hive 
+2009-10-28 11:12:06,094 INFO  [system] Attempting to load descriptions from entities/Thermometer.groovy 
+2009-10-28 11:12:06,095 INFO  [system] Running script Thermometer.groovy 
+2009-10-28 11:12:06,221 INFO  [system] Adding entity description thermometer 
+2009-10-28 11:12:06,222 INFO  [system] Attempting to load descriptions from entities/UI.groovy 
+2009-10-28 11:12:06,222 INFO  [system] Running script UI.groovy 
+2009-10-28 11:12:06,754 INFO  [system] Adding entity description ui 
+2009-10-28 11:12:06,754 INFO  [system] Attempting to load descriptions from events 
+2009-10-28 11:12:06,755 INFO  [system] Attempting to load descriptions from services 
+2009-10-28 11:12:06,756 INFO  [system] Attempting to load descriptions from services/Outside_temp.groovy 
+2009-10-28 11:12:06,756 INFO  [system] Running script Outside_temp.groovy 
+2009-10-28 11:12:06,802 INFO  [system] Adding service description outside_temp 
+2009-10-28 11:12:06,845 INFO  [system] Attempting to load descriptions from /framework/events/EntityCreatedEvent.groovy 
+2009-10-28 11:12:06,855 INFO  [system] Running script /framework/events/EntityCreatedEvent.groovy 
+2009-10-28 11:12:06,914 INFO  [system] Adding event description entity-created 
+2009-10-28 11:12:06,915 INFO  [system] Attempting to load descriptions from /framework/events/EntityDestroyedEvent.groovy 
+2009-10-28 11:12:06,916 INFO  [system] Running script /framework/events/EntityDestroyedEvent.groovy 
+2009-10-28 11:12:06,957 INFO  [system] Adding event description entity-destroyed 
+2009-10-28 11:12:06,958 INFO  [system] Attempting to load descriptions from /framework/events/EntityStateChangedEvent.groovy 
+2009-10-28 11:12:06,959 INFO  [system] Running script /framework/events/EntityStateChangedEvent.groovy 
+2009-10-28 11:12:07,006 INFO  [system] Adding event description entity-state-changed 
+2009-10-28 11:12:07,006 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdownCommand.groovy 
+2009-10-28 11:12:07,007 INFO  [system] Running script /framework/events/SystemShutdownCommand.groovy 
+2009-10-28 11:12:07,035 INFO  [system] Adding event description system.command.shutdown 
+2009-10-28 11:12:07,036 INFO  [system] Attempting to load descriptions from /framework/events/SystemShutdownStatus.groovy 
+2009-10-28 11:12:07,036 INFO  [system] Running script /framework/events/SystemShutdownStatus.groovy 
+2009-10-28 11:12:07,076 INFO  [system] Adding event description system.status.shutdown 
+2009-10-28 11:12:07,077 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartCommand.groovy 
+2009-10-28 11:12:07,077 INFO  [system] Running script /framework/events/SystemStartCommand.groovy 
+2009-10-28 11:12:07,106 INFO  [system] Adding event description system.command.start 
+2009-10-28 11:12:07,107 INFO  [system] Attempting to load descriptions from /framework/events/SystemPauseCommand.groovy 
+2009-10-28 11:12:07,107 INFO  [system] Running script /framework/events/SystemPauseCommand.groovy 
+2009-10-28 11:12:07,164 INFO  [system] Adding event description system.command.pause 
+2009-10-28 11:12:07,164 INFO  [system] Attempting to load descriptions from /framework/events/SystemStartupStatus.groovy 
+2009-10-28 11:12:07,165 INFO  [system] Running script /framework/events/SystemStartupStatus.groovy 
+2009-10-28 11:12:07,204 INFO  [system] Adding event description system.status.startup 
+2009-10-28 11:12:07,207 INFO  [system] Attempting to load descriptions from /framework/events/TimeUpdateEvent.groovy 
+2009-10-28 11:12:07,211 INFO  [system] Running script /framework/events/TimeUpdateEvent.groovy 
+2009-10-28 11:12:07,242 INFO  [system] Adding event description time-update 
+2009-10-28 11:12:07,570 INFO  [system] starting the simulation for 100 cycles 
+2009-10-28 11:12:07,582 INFO  [system] Attempting to load descriptions from ./docs 
+2009-10-28 11:12:07,691 INFO  [system] Attempting to load descriptions from ./docs/entity_bee.html 
+2009-10-28 11:12:07,696 INFO  [system] Attempting to load descriptions from ./docs/entity_hive.html 
+2009-10-28 11:12:07,704 INFO  [system] Attempting to load descriptions from ./docs/entity_thermometer.html 
+2009-10-28 11:12:07,713 INFO  [system] Attempting to load descriptions from ./docs/gentsim.css 
+2009-10-28 11:12:07,717 INFO  [system] Attempting to load descriptions from ./docs/index.html 
+2009-10-28 11:12:07,718 INFO  [system] Attempting to load descriptions from ./docs/service_outside_temp.html 
+2009-10-28 11:12:07,719 INFO  [system] Attempting to load descriptions from ./entities 
+2009-10-28 11:12:07,732 INFO  [system] Attempting to load descriptions from ./entities/Bee.groovy 
+2009-10-28 11:12:07,733 INFO  [system] Running script Bee.groovy 
+2009-10-28 11:12:07,850 INFO  [system] Adding entity description bee 
+2009-10-28 11:12:07,850 INFO  [system] Attempting to load descriptions from ./entities/Hive.groovy 
+2009-10-28 11:12:07,851 INFO  [system] Running script Hive.groovy 
+2009-10-28 11:12:07,945 INFO  [system] Adding entity description hive 
+2009-10-28 11:12:07,946 INFO  [system] Attempting to load descriptions from ./entities/Thermometer.groovy 
+2009-10-28 11:12:07,947 INFO  [system] Running script Thermometer.groovy 
+2009-10-28 11:12:08,006 INFO  [system] Adding entity description thermometer 
+2009-10-28 11:12:08,007 INFO  [system] Attempting to load descriptions from ./entities/UI.groovy 
+2009-10-28 11:12:08,008 INFO  [system] Running script UI.groovy 
+2009-10-28 11:12:12,406 INFO  [system] Adding entity description ui 
+2009-10-28 11:12:12,406 INFO  [system] Attempting to load descriptions from ./events 
+2009-10-28 11:12:12,406 INFO  [system] Attempting to load descriptions from ./gentsim.log 
+2009-10-28 11:12:12,407 INFO  [system] Attempting to load descriptions from ./lib 
+2009-10-28 11:12:12,408 INFO  [system] Attempting to load descriptions from ./lib/jcommon-1.0.16.jar 
+2009-10-28 11:12:12,409 INFO  [system] Attempting to load descriptions from ./lib/jfreechart-1.0.13.jar 
+2009-10-28 11:12:12,409 INFO  [system] Attempting to load descriptions from ./log4j.xml 
+2009-10-28 11:12:12,409 INFO  [system] Attempting to load descriptions from ./README 
+2009-10-28 11:12:12,410 INFO  [system] Attempting to load descriptions from ./services 
+2009-10-28 11:12:12,412 INFO  [system] Attempting to load descriptions from ./services/Outside_temp.groovy 
+2009-10-28 11:12:12,413 INFO  [system] Running script Outside_temp.groovy 
+2009-10-28 11:12:12,639 INFO  [system] Adding service description outside_temp 
+2009-10-28 11:12:40,427 INFO  [system] stopping the simulation 
