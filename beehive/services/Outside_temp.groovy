@@ -24,7 +24,7 @@ outside_temp = new ServiceDescription("outside_temp")
 // Returns a temperature based on the time.
 outside_temp.method("getTemp") { time -> // time is in 15 minute increments
   // convert time to nearest hour.
-  def hour = (int)(time / 4) % 24
+  def hour = ((int)(time / 4)) % 24
   //println "getting temp for time ${time} and hour ${hour}"
 
   def temp

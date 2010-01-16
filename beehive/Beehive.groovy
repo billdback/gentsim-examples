@@ -19,12 +19,12 @@ import org.gentsim.framework.*
 import org.gentsim.util.Trace
 
 // create the simulation and specify location of entities, etc.
-beehive = new TimeSteppedSimulation(["entities", "events", "services"])
+beehive = new Simulation(["entities", "events", "services"], true)
 
 // Set up tracing.
 Trace.off "statistics"
-//Trace.on "entities"
-//Trace.on "events"
+Trace.on "entities"
+Trace.on "events"
 
 beehive.newEntity("ui")
 beehive.newService("outside_temp")

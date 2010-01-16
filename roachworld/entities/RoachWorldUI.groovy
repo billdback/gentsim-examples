@@ -23,6 +23,7 @@ rwui.handleTimeUpdate { time ->
   println "time: ${time}"
 }
 
+/*
 rwui.handleEntityCreated("roach") { roach ->
   println "roach ${roach.id} created at ${roach.location}"
 }
@@ -46,4 +47,5 @@ rwui.handleEntityCreated("dropped-food") { food ->
 rwui.handleEntityDestroyed("dropped-food") { food ->
   println "${food.id} food is gone"
 }
+*/
 

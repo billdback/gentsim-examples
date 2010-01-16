@@ -19,12 +19,12 @@ import org.gentsim.framework.*
 import org.gentsim.util.*
 
 // this must be run from the current directory to work.
-def rwsim = new TimeSteppedSimulation(["events", "entities", "services"]) 
+def rwsim = new Simulation(["events", "entities", "services"], true) 
 
 // Set up tracing.
-Trace.off "statistics"
-Trace.on "entities"
-Trace.on "events"
+Trace.on "statistics"
+Trace.off "entities"
+Trace.off "events"
 
 // Create the individual services and things.
 def kitchen = rwsim.newService("kitchen")
@@ -34,12 +34,11 @@ rwsim.newEntity("roach-world-analyzer")
 
 // Create some random roaches to start with.
 def random = new Random()
-(1..20).each {
+(1..2000).each {
   def x = Math.abs(random.nextInt() % kitchen.width)
   def y = Math.abs(random.nextInt() % kitchen.length)
   def r = rwsim.newEntity("roach", ["location" : [x, y]])
-  println r
 }
 
 // start the simulation
-rwsim.run(10)
+rwsim.run(100)

@@ -93,16 +93,16 @@ ui.handleEvent ("system.status.startup") { evt ->
             start_pause_button = button (text: 'Start', actionPerformed: {
               if (start_pause_button.text == 'Start') { // paused, start
                 start_pause_button.text = 'Pause'
-                sendEvent(newEvent("system.command.start"))
+                sendEvent(newEvent("system.control.start"))
               }
               else { // running, pause
                 start_pause_button.text = 'Start'
-                sendEvent(newEvent("system.command.pause"))
+                sendEvent(newEvent("system.control.pause"))
               }
             }
             )
             button (text: 'Stop ', actionPerformed: { 
-              sendEvent(newEvent("system.command.shutdown"))
+              sendEvent(newEvent("system.control.shutdown"))
             })
           }
         }
