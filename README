@@ -13,7 +13,7 @@ Installing
 
 1.  Simply download the examples code and libraries from either the http://www.gentsim.org site or http://www.github.com/billdback/gentsim-examples.  
 
-2.  Put the gentsim-<version>-SNAPSHOT.jar into your groovy classpath.  This can be done by adding the jar to your CLASSPATH variable, passing the jar as a parameter to the groovy command (using -classpath), or by placing the jar into your ~/.grovy/lib directory.
+2.  Put the gentsim-<version>-SNAPSHOT.jar into your groovy classpath.  This can be done by adding the jar to your CLASSPATH variable, passing the jar as a parameter to the groovy command (using -classpath), or by placing the jar into your ~/.groovy/lib directory.
 
 3.  Verify the install by running one of the example simulations using the process in "Running Simulation Scripts" below.
 
