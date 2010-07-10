@@ -17,14 +17,19 @@ This file is part of gentsim-examples.
 */
 import org.gentsim.framework.*
 import org.gentsim.util.*
+import org.gentsim.random.UniformRandom
 
 // this must be run from the current directory to work.
 def rwsim = new Simulation(["events", "entities", "services"], true) 
+//rwsim.manuallyStep()
+
+rwsim.useJMS("tcp://localhost:61616")
 
 // Set up tracing.
 Trace.on "statistics"
 Trace.off "entities"
 Trace.off "events"
+Trace.off "debug"
 
 // Create the individual services and things.
 def kitchen = rwsim.newService("kitchen")
@@ -33,12 +38,14 @@ rwsim.newEntity("ui")
 rwsim.newEntity("roach-world-analyzer")
 
 // Create some random roaches to start with.
-def random = new Random()
+def widthRandom = new UniformRandom(0..kitchen.width)
+def lengthRandom = new UniformRandom(0..kitchen.length)
 (1..2000).each {
-  def x = Math.abs(random.nextInt() % kitchen.width)
-  def y = Math.abs(random.nextInt() % kitchen.length)
+  def x = widthRandom.nextLong()
+  def y = lengthRandom.nextLong()
   def r = rwsim.newEntity("roach", ["location" : [x, y]])
 }
 
 // start the simulation
-rwsim.run(100)
+rwsim.paused = true
+rwsim.run(10)

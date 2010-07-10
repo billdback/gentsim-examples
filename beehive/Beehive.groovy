@@ -17,6 +17,7 @@ This file is part of gentsim-examples.
 */
 import org.gentsim.framework.*
 import org.gentsim.util.Trace
+import org.gentsim.random.NormalRandom
 
 // create the simulation and specify location of entities, etc.
 beehive = new Simulation(["entities", "events", "services"], true)
@@ -33,11 +34,11 @@ beehive.newEntity("hive")
 
 // Create the bees with a normal desired temp around 75 degrees F.
 def bee
-def rand = new Random()
+def rand = new NormalRandom(75, 6)
 (0..100).each { 
   bee = beehive.newEntity("bee") 
   // NOTE:  comment to see the impact of all bees flapping.
-  bee.desired_temp = rand.nextGaussian() * 3 + 75
+  bee.desired_temp = rand.nextLong()
 }
 
 // Start the simulation.

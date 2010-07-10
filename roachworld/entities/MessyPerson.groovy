@@ -28,9 +28,7 @@ person.parameter "random", { new Random() }
 
 person.handleTimeUpdate { time ->
   // See if this is one of those times that food is dropped.
-  // TODO Add a random library to the simulation environment.
   if (Math.abs(random.nextFloat()) < avg_drop_frequency) {
-    // TODO Add random location and amount.
     def x = Math.abs(random.nextInt() % kitchen.width)
     def y = Math.abs(random.nextInt() % kitchen.length)
     def amt = Math.round(Math.abs(random.nextGaussian() * avg_drop_size))
